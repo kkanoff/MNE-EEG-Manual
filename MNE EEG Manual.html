@@ -11842,275 +11842,6 @@ $( document ).ready(function(){
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data-Collection">Data Collection<a class="anchor-link" href="#Data-Collection">&#182;</a></h1><p><strong>"There is no substitute for good data."</strong></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Setup-&amp;-Cleanup">Setup &amp; Cleanup<a class="anchor-link" href="#Setup-&amp;-Cleanup">&#182;</a></h2><p>This section gives overviews of the setup and cleanup processes for the various recording environments we use.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="EGI-System">EGI System<a class="anchor-link" href="#EGI-System">&#182;</a></h3><p>This section gives instructions on how to set up the high density EGI EEG system in room 2607.</p>
-<p><strong> Setting up the Recording System </strong></p>
-<p>The cart lives down by the digitization system by bay 1. The cart along with the black box containing the wiring for the cart needs to be wheeled up to the behavioral testing room. Importantly, the keys for the cart live in a lock box by the digitization computer. The combination for the lock box is 3256.</p>
-<p>The cart contains the following components:</p>
-<ul>
-<li>Physiological Recordings Laptop: A macbook pro serves as the recording laptop. </li>
-<li>Black box: This serves as the interface between the recording laptop and the amplifier. What else??</li>
-<li>Amplifier: This lives inside the cart and amplifies the EEG electrode recordings. It runs on battery power, but should be plugged in regardless during recording to ensure it remains charged.</li>
-<li>Power Box?:</li>
-<li>Clock Sync Box: This serves as the interface to the DAQ for the recording system.</li>
-</ul>
-<p>Steps for setting up the cart (before subject arrives):</p>
-<ol>
-<li>Place the cart in the back left corner of the room. Unlock the cabinet to get access to the amplifier and laptop.</li>
-<li>Place the laptop on top of the cart and plug in its power strip.</li>
-<li></li>
-</ol>
-<p><strong> Preparing the Cap Solution </strong></p>
-<p>The EGI cap is a saline cap, meaning that the electrodes are connected to the scalp via mini sponges that get soaked with a liquid solution designed to form a connective bridge between the electrode and the scalp.</p>
-<p>The cap solution materials are in the second black plastic bin stored with the cart (the one that doesn't have the wiring). The solution is a mixture of tap water, baby shampoo, and sodium. In the plastic bin (and surrounding area) there should be:</p>
-<ul>
-<li>Plastic container where solution gets mixed. </li>
-<li>Baby shampoo bottles.</li>
-<li>Sodium Chloride mixture.</li>
-<li>Two scoops. One for shampoo &amp; one for the KCL.</li>
-<li>A tupperware container.</li>
-<li>Scissors</li>
-<li>Two plastic squeeze droppers.</li>
-</ul>
-<p>Take all of these materials to the sink by bay 1. There, follow the instructions on the plastic container for creating the solution <strong>with the exception that all of the ingredients should be doubled.</strong> The reason for doubling is that the amount of solution made with the given steps often doesn't seem enough to sufficiently soak the cap.</p>
-<p>GET LINENS IN HERE</p>
-<p>After making the solution there are two final steps. First, you should take two plastic squeeze droppers and cut off the ends about an inch up. These will be used to both move the hair during electrode placement and will also be used to administer extra solution during impedance checking. The ends are removed to make them less flimsy at the tips. Second, some of the saline solution should be extracted into the tupperware container. This will be used to improve the connection for electrodes that have poor impedance readings up in the experiment room.</p>
-<p><strong> Capping the Subject </strong></p>
-<p>The first step when capping the subject is to measure the subject's head circumference. This is done by placing the tape measure end at the nasion and wrapping it around the head so that it runs across the bump at the back of the head. Record this measure in cm. This will be used to determine the cap size. HOW DOES IT TRANSLATE TO CAP SIZE?</p>
-<p>Once the cap size has been determined, place the head of the cap INSIDE OUT in the saline solution bucket. Wrap a pair of scrub pants securely around the end to keep it from getting wet.</p>
-<p>The next step is to locate the vertex (top, center of the head). The vertex will serve as an important landmark as this is where the reference electrode will be positioned. The reference electrode is a black electrode in the top center of the cap. To locate the vertex, take the tape measure and stretch it from the nasion to the bump on the back over the top of the head. Find the middle of this distance and draw a red mark perpendicular to the measuring tape at the center point. Repeat this process, but this time going from aricular point to aricular point. The result should be a red cross-hairs at the approximate vertex location.</p>
-<p>Finally place</p>
-<p>Next place the cap over (there should hopefully be a video) and adjust. ADD MORE HERE</p>
-<p>After that you want to move hair out of the way of electrodes using the squeegees. ADD MORE HERE</p>
-<p><strong> Digitization Process </strong></p>
-<p>Unlike in the MEG bay, the digitization process is done offline. Instead, what we do here is take multi-angle images of the cap which are then used later to perform the digitization.</p>
-<p>The first step is to log onto the digitization computer. This entails the following:</p>
-<ul>
-<li>Enter the password: geodesic</li>
-<li>Open the image capture program at the following in finder: Applications &gt; EGI &gt; GPS &gt; GPS Acquisition</li>
-<li>ENTER SOMETHING ELSE IN HERE?</li>
-<li>Select 'Hydro Cel GSN 256 1.0' for the net size</li>
-<li>Enter patient info as desired for naming the file.</li>
-</ul>
-<p>The next step is to position the dome around the subject. The dome consists of 11 cameras that together capture all of the electrodes on the head.</p>
-<p><strong> Impedance Checking </strong></p>
-<p><strong> Washing the Cap </strong></p>
-<p>NOTE: The cap should be washed inside out!</p>
-<p>Steps for washing the cap:</p>
-<ol>
-<li>Pour out the container with the saline solution and rinse clean. Then fill it up with warm water to the 2 Liter mark. Take the cap and repeatedly dunk in and out of the water for 20 seconds. Remove from water and pour out the water.</li>
-<li>Repeat step 1 three more times.
-Use a timer for the next two steps. The cap should remain in the disinfectant for no more than 10 minutes as otherwise it can start to erode the electrodes!</li>
-<li>Open the disinfectant container (check to make sure it hasn't expired! The disinfectant is only good for 30 days.). Dunk the cap in and out repeatedly for two minutes.</li>
-<li>Leave the cap in the disinfectant for an additional 8 minutes.</li>
-<li>Repeat steps 1 &amp; 2 (a.k.a. 4 20s periods of dunking in clean water).</li>
-<li>LEAVE TO DRY SOMEWHERE?</li>
-</ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="MEG-Bay">MEG Bay<a class="anchor-link" href="#MEG-Bay">&#182;</a></h3><p><strong> Getting the Capping Area Ready (Before Subject/During Changing) </strong></p>
-<p>You'll want to retrieve the following materials from the cabinet labeled EEG Prep (and a few neighboring cabinets potentially):</p>
-<ul>
-<li>Q-tips: Used to apply gel cleaning for electrodes.</li>
-<li>Nuprep Gel: Applied with Q-tips to clean the skin/scalp (refills can be found in cabinet above if missing).</li>
-<li>Electrode Gel: Used to fill the electrodes. Goes in the syringes (refills can be found in cabinet one diagonal to the right if missing)</li>
-<li>Syringes: Used to fill electrodes with electrode gel.</li>
-<li>Sticky Tape: The transparent tape. Used to secure HPI's to cap and bundle wires together.</li>
-<li>Face Tape: Non-transparent tape. Used to adhere periphals to subject's skin.</li>
-<li>Electrode Tape: Little circular peel off tape used to stabilize electrodes to longer tape.</li>
-<li>Gauze Squares: Used to wipe cleaning gel off subject's skin for peripherals.</li>
-</ul>
-<p>PHOTO OF CAP ITEMS</p>
-<p><u> Setup Steps: </u></p>
-<ol>
-<li>Prepare Tape (Pre-tear pieces for easy access):<ul>
-<li>Stick 8 pieces of 2.5-3 inch sticky tapes on cabinet edge. Two for each HPI.</li>
-<li>Stick 2 pieces of 1 inch sticky tape on cabinet edge. One for securing reference, one for bundling peripheral wires.</li>
-<li>Stick 8 pieces of 1.5-2 inch face tape on cabinet edge. One for each peripheral.</li>
-</ul>
-</li>
-<li>Prepare Gel:<ul>
-<li>Take a paper towel and fold over to create double layer.</li>
-<li>Blob nuprep gel onto the center of the paper towel. This will be swabbed up with the Q-tips.</li>
-<li>Take 3 syringes and fill with the electrode gel. Take the pusher all the way out. Then put the electrode gel nozzle as far down as possible angled against the side of the tube and squeeze. Try to get the gel to travel downwards as far as possible before the gel forms a seal against both sides and starts forcing it upwards. Do this until the syringe is full. Then place the pusher back in and push until the gel is flush without any air pockets. Do this over the trash as gel will probably squirt out.</li>
-</ul>
-</li>
-<li>Prepare Peripherals &amp; HPI's (Found hanging on wall under clock by caps):<ul>
-<li>2 white electrodes for horizontal EOG: These measure saccades.</li>
-<li>2 grey electrodes for vertical EOG: These measure eye blinks.</li>
-<li>2 orange electrodes for ECG: These measure heartbeat.</li>
-<li>1 green electrode for reference: This is the electrode all the electrodes are referenced to. See the re-referencing section for more about the reference electrode.</li>
-<li>1 blue electrode for ground: This electrode serves as the ground for the circuit formed by the EEG.</li>
-<li>HPI Coil: Four connected silvery wires. These are used to track head position in the MEG helmet.</li>
-<li>These all get laid out on the counter in preparation for application. </li>
-<li>The peripheral electrode color scheme is ideal for consistency (and consequently fewer errors), but deviations can happen. </li>
-<li>If peripheral electrodes are missing, they may be drying by the washing area.</li>
-</ul>
-</li>
-</ol>
-<p>PICTURE OF SETUP AREA</p>
-<p><strong> Setting Up the Cart &amp; Task Laptop </strong></p>
-<p><strong> Setting Up the MEG Room </strong></p>
-<p><strong> Getting the Subject Changed </strong></p>
-<p>Subjects have to wear MEG-compatible scrubs when in the MEG. Also, of extreme importance, they must remove all jewelry, watches, and other potential artifact-inducing items.</p>
-<p>Steps for changing:</p>
-<ol>
-<li>Retrieve a pair of pants and a robe from the cabinets marked pants and robes respectively (next to the white board at end of counter). The tan robes are better than the blue robes as they don't have the snap buttons.</li>
-<li>Walk the subjects back to the changing area (room by the washing area) and give them the robes.</li>
-<li>Instruct them that they should change into the robes with only underwear on. Ladies should remove bras. Also, remind them to remove all jewelry and other items. Show them the lockers (cabinets above counter) where they can store their clothes and stuff.</li>
-<li>After they are finished changing, double check to make sure all jewelry, watches, etc. has been removed.</li>
-</ol>
-<p><strong> Capping the Subject </strong></p>
-<p><u> Overview Briefing </u></p>
-<p>First thing to do is give an overview of what MEG/EEG entails. You can ask whether they've had MEG or EEG before to tailor the amount of info. This overview is helpful in orienting them as to what will actually be happening to them for the next two hours. You should try to touch upon the following:</p>
-<ul>
-<li>EEG refers to measure of brain's electrical activity via this "swimming cap" which we'll be placing on your head. Point to an electrode and explain how it only records, does not stimulate.</li>
-<li>Also mention that there will be a few stand alone electrodes on the face and chest that also only record as well.</li>
-<li>You can mention that we'll be using a water-soluble gel to create electrical connections between the skin and electrode.</li>
-<li>MEG refers to the recording of the brain's magnetic fields. This is done in the magnetically shielded room to minimize interference via a "helmet" of sensors.</li>
-</ul>
-<p><u> Picking and Setting Cap: </u></p>
-<ol>
-<li><p>Pick a Cap: Sizes range from 54-60 in sizes of 2 increasing by size of head. Smaller fonts for electrode labels are newer caps and tend to be better quality so you should be biased towards those if possible. You want to go for the smallest size that fits on subject's head that is still comfortable. If no good fitting caps are dry, you can use the blow dryer to dry a better one.</p>
-</li>
-<li><p>Check Electrodes: Once you have selected a cap, make sure to check for any electrodes that have popped out. If one has popped out, then you should stretch the cap around it and re-secure it.</p>
-</li>
-<li><p>Fit Cap:</p>
-<ul>
-<li>The cap should be fit with two RA's. One with two hands on front and one with two hands on back. Place the front first, aligning FPz in the center of the forehead with a little bit of bare skin above the eyebrows (amount will vary by the head and cap). Once the front is placed, pull down on the back while holding the front in place. Pull until the cap is snug and there is no bunching. </li>
-<li>Press on all the electrodes to make sure none are too floaty or adjust accordingly. </li>
-<li>You may have to try more than one cap size if the initial one doesn't fit well. </li>
-<li>All heads get fit differently. Generally, the fit will be less tight in the back (especially with long hair). Also, the electrodes by the ears/on the ears will often be floating. There is typically nothing that can be done about this.</li>
-<li>The snugger the better so err for the snugger fit if a person is on the border between two cap sizes.</li>
-</ul>
-</li>
-<li><p>Secure the Cap: Once the cap is fit on the head, ask them to velcro the chin strap so that it is tight and secure, but still comfortable. Make sure they can breathe and swallow comfortably (i.e. the strap is not too tight).</p>
-</li>
-</ol>
-<p>PICTURE OF FIT CAP HERE</p>
-<p><u> Filling the Cap Electrodes </u></p>
-<ol>
-<li>Brief the Subject: Before you get started, explain to the subject what you will be doing<ul>
-<li>Show them a cue tip with gel on it. Explain you will be working this in the electrodes to clean the skin/move hair. Reassure that they should let us know if any of the cue-tipping is uncomfortable.</li>
-<li>Show them a syringe with gel filled. Explain that you will be filling the electrodes with this gel to form the electrical connection.</li>
-<li>In both cases, reassure that the gel is water-soluble (can be washed off in sink in back after visit) and is hypoallergenic.</li>
-</ul>
-</li>
-<li>Cue-Tipping an Electrode:<ul>
-<li>For each electrode, swab the cue tip in some gel (on the paper towel). Place it inside the electrode and work back and forth to clean the area and move hair. The goal is to work the area until you have clear visibility of scalp (not always possible with lots of hair, do your best). </li>
-<li>Proper cue-tipping technique is best learned by visual demonstration so pay attention to technique of whoever is training you.</li>
-<li>Cue-tips should only be used for ~2-3 electrodes before being tossed and replaced. After a few electrodes, the cotton starts to dissolve making the end much harder and thus uncomfortable for the subject.</li>
-</ul>
-</li>
-<li>Filling an Electrode with Gel:<ul>
-<li>Once you have cleaned an electrode with the cue tip, the next step is to fill it. To do this, take your off hand and press down the electrode to the scalp with two fingers. While doing this, place the syringe in the electrode hole until contact with scalp is made. Then slowly press down on syringe filling the hole with gel while slowly moving the syringe and your hand away from the electrode until the hole is filled.</li>
-</ul>
-</li>
-</ol>
-<p><u> Placing the Peripherals </u></p>
-<ol>
-<li>Prep the Electrodes: Place a circle electrode on the back of the electrode and peel off the backing. Then place a piece of skin tape behind, oriented according to the placement of the specific peripheral. Finally, fill the electrode with gel from a syringe.</li>
-<li>Inform the Subject: Warn the subject that you are about to wipe a cue tip on their face! Let them know the location.</li>
-<li>Take a cue tip with gel and scrub the area for several seconds to clean it. Locations for the various peripheral electrodes are depicted on the sheets on the wall by the hand sanitizer (with the exception of ECG which both go on each half of the chest, equally spaced from the center).</li>
-<li>Place the electrode with tape over the area and apply pressure to secure the tape. You can ask the subject to press down on it themselves to secure it so you don't have to press all over their face.</li>
-</ol>
-<p><em>Special Note about the Reference</em>: The reference is the most important electrode as every other EEG electrode gets influenced by it and thus it is really important that it has a good connection. Because of this, we typically clean the nose for an extended period of time in step 3 (~1-2 minutes). Also, due to the awkward placement on the nose, we typically due this last and fold back two corners of the tape to keep it from overlapping the nostrils. Make sure to run the wire over the top of the head and tape it down to the cap (using one of the 1 inch pieces) once it is placed. This keeps it secure and out of the way.</p>
-<p><u> Checking Impedances </u></p>
-<p><u> Placing the HPI's </u></p>
-<ol>
-<li><p>Prep the HPI's:</p>
-</li>
-<li><p>Place on the Head:</p>
-</li>
-</ol>
-<p><strong> Digitizing the Cap </strong></p>
-<p><strong> De-Gaussing </strong></p>
-<p><strong> Setting the Subject in the MEG </strong></p>
-<p><strong> Removing the Cap &amp; Dismissing the Subject </strong></p>
-<p><strong> Cleaning the MEG Room </strong></p>
-<p><strong> Cleaning the Control Room </strong></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Taking-Notes">Taking Notes<a class="anchor-link" href="#Taking-Notes">&#182;</a></h2><p>For each experiment, we take notes in a lab notebook. These notes serve as documentation of potential noise sources and interesting observations found during the experiment. The best references for how to take good notes are to look at prior experiment entries and to ask Alik and/or the current RA what they find important to take notes on. Here are some important dimensions to be aware of:</p>
-<ul>
-<li>Task Understanding: It is important to try to assess whether you think the subject has a good understanding of the task. Do they make reasonable choices (for example, picking 20 over 5 dollars)? If there is a debriefing session, one can also assess this here.</li>
-<li>Notable Artifacts: Make note of any peculiar artifacts/potential artifact sources. Is the subject moving a lot during the experiment? Are they sniffling/breathing heavy? Are they talking a lot? Try as best as you can to link up noise seen in the online signal collection display to actual movements/actions by the subject or other environmental influences.</li>
-<li>Bad Electrodes: Note flat channels or channels that have really poor drift or multiple electrode pops. These channels may be fine, but these events suggest that they may not be trustworthy.</li>
-<li>Subject Comments/Emotions: Patients, in particular, may have really strong emotions evoked. Try to assess how they are feeling and make not of any relevant comments they make. For example, are they really anxious or tired? Sometimes they will communicate directly via speech or other times you can infer from body language.</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Transferring-Data">Transferring Data<a class="anchor-link" href="#Transferring-Data">&#182;</a></h2><h3 id="MEG-Bay">MEG Bay<a class="anchor-link" href="#MEG-Bay">&#182;</a></h3><p>This section details the process of transferring raw MEG data from the MEG bay servers to our local linux boxes. The example below is for the DARPA project, but the instructions are identical for other projects collected in the MEG bay with the exception that the path on the megraid server would likely change.</p>
-<p>Navigate to your local data storage directory.</p>
-
-<pre><code>cd 'path to local data storage directory' 
-
-</code></pre>
-<p>Make a new folder for your subject.</p>
-
-<pre><code>mkdir 'SUBJECT'
-
-</code></pre>
-<p>Find subject in MEGRAID server.</p>
-
-<pre><code>ls /space/megraid/research/MEG/transform/
-
-</code></pre>
-<p><strong>COPY</strong> the subject folder into your local data storage folder. <strong>DO NOT MOVE THE DATA (DO NOT USE THE MV COMMAND)</strong></p>
-
-<pre><code>cp -R /space/megraid/research/MEG/transform/SUBJECT_ID/**  SUBJECT/
-
-</code></pre>
-<p>NOTE: If you receive a “permission denied” error, you will need to speak to Nao Matsuda in the MEG Bay to have her change the file permissions. She will need to know the path of the folder you want to copy: /space/megraid/research/MEG/transform/SUBJECT_ID</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Preprocessing">Preprocessing<a class="anchor-link" href="#Preprocessing">&#182;</a></h1><p>Preprocessing M/EEG data is composed of the following steps:</p>
 <ul>
 <li>Bad Channel Rejection &amp; Raw Visualization</li>
@@ -12744,10 +12475,10 @@ $$<p>where n is the number of channels (this excludes bad channels). In MNE, the
 
  
  
-<div id="1c3a9cd5-d61c-4f3d-babd-a306cbef907f"></div>
+<div id="fc4d8623-5e51-4475-b9b7-6d94b2eb9aaa"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#1c3a9cd5-d61c-4f3d-babd-a306cbef907f');
+var element = $('#fc4d8623-5e51-4475-b9b7-6d94b2eb9aaa');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "3c1d63637cb24b079a608ed97277a022"}
@@ -12842,11 +12573,14 @@ var element = $('#1c3a9cd5-d61c-4f3d-babd-a306cbef907f');
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Source-Localization-in-MNE">Source Localization in MNE<a class="anchor-link" href="#Source-Localization-in-MNE">&#182;</a></h1><h2 id="Set-Up-the-Linux-Environment">Set Up the Linux Environment<a class="anchor-link" href="#Set-Up-the-Linux-Environment">&#182;</a></h2><p>There are three things that need to be done before running through the source localization pipeline:</p>
 <ol>
-<li>Set an environment variable called $SUBJECTS_DIR to the path where your Freesurfer Recons will live.
+<li>Set an environment variable called \$SUBJECTS_DIR to the path where your Freesurfer Recons will live.
 <pre><code> setenv SUBJECTS_DIR 'path to recons folder'</code></pre>
 </li>
 <li>Source Freesurfer</li>
 <li>Source MNE</li>
+<li>Set an environment variable $SUBJECT with the name of the current subject you are processing:
+<pre><code> setenv SUBJECT 'subject code'</code></pre>
+</li>
 </ol>
 
 </div>
@@ -12947,18 +12681,6 @@ tksurfer $SUBJECT lh inflated
 <li>The MRI &amp; EEG coordinate frames need to be aligned.</li>
 <li>The above three need to be combined into a single forward model operator.</li>
 </ol>
-<p>Each of the first three steps makes use of either Freesurer or MNE command line arguments. The individual commands are explained and walked through below. However, for convenience, I have collected all of these commands into a shell script run_forward_model_commands.sh which can be evoked by:</p>
-
-<pre><code>source run_forward_model_commands.sh SUBJECT_ID SCAN_TYPE
-
-</code></pre>
-<p>assuming that:</p>
-<ul>
-<li>Your linux environment has been set up according to the steps in 'Set Up the Linux Environment' </li>
-<li>SUBJECT_ID refers to the name of the subject's directory in the Recons folder</li>
-<li>SCAN_TYPE is either flash or watershed depending on which type of scan you used for segmentation of layers (see the Generate the Boundary Element Model section below). </li>
-</ul>
-<p>Note that the script will pause and wait for your input at the step where you need to check the segmentation. <strong> It takes about X minutes to run </strong></p>
 <h3 id="Generate-the-Source-Space-Mesh">Generate the Source Space Mesh<a class="anchor-link" href="#Generate-the-Source-Space-Mesh">&#182;</a></h3><p>The source space we use is a distributed triangular mesh over the subject's white matter surface created by the Freesurfer reconstruction where each vertex of a triangle corresponds to a potential current dipole EEG source. A visualization of an example source space mesh is shown below.</p>
 <p><img src='./images/source_mesh.png' width=40%></p>
 <p>The mne_setup_source_space below creates this mesh:</p>
@@ -12971,7 +12693,11 @@ tksurfer $SUBJECT lh inflated
 <li>ico 6: Uses the 'oct6' source spacing resulting in 4098 sources per hemisphere. See <a href="http://martinos.org/mne/stable/manual/cookbook.html#source-localization">here</a> for a description of the MNE source spacings.</li>
 <li>cps: This includes information about nearest neighbors for each source point in the output file so that cortical patch statistics can be later calculated if desired (read more here).</li>
 <li>overwrite: Overwrites any existing source space file</li>
-<li>Output: </li>
+<li>Output: <ul>
+<li>\$SUBJECT-oct-6p-src.fif: Source space file with patch statistics.</li>
+<li>Various other source files in the bem folder with auxiliary information.</li>
+</ul>
+</li>
 </ul>
 <h3 id="Generate-the-Boundary-Element-Model">Generate the Boundary Element Model<a class="anchor-link" href="#Generate-the-Boundary-Element-Model">&#182;</a></h3><p><strong> Segment the Brain, Skull, &amp; Scalp </strong></p>
 <p>The first step in the process is to generate the necessary surfaces for the BEM model. This involves segmenting the brain, the skull, and the scalp and then producing freesurfer surfaces for the inside of the skull, the outside of the skull, and the scalp. For more information on MNE's BEM surface segmentations see <a href=http://martinos.org/mne/stable/manual/appendix/bem_model.html#create-bem-model> here</a>.</p>
@@ -13021,9 +12747,9 @@ tksurfer $SUBJECT lh inflated
 <li><p>QC the Segmentation. Once the segmented BEM layer files have been created, an important sanity check is to visualize these layers and ensure there are no blatant errors, such as overlap between separate layers. This can be done using freeview by overlaying the three created surface mesh files over the subject's T1 volume.</p>
 
 <pre><code> freeview -v $SUBJECTS_DIR/$SUBJECT/mri/T1.mgz
- -f $SUBJECTS_DIR/$SUBJECT/bem/watershed/inner_skull_surface
- -f $SUBJECTS_DIR/$SUBJECT/bem/watershed/outer_skull_surface
- -f $SUBJECTS_DIR/$SUBJECT/bem/watershed/outer_skin_surface</code></pre>
+ -f $SUBJECTS_DIR/$SUBJECT/bem/watershed/{$SUBJECT}_inner_skull_surface
+ -f $SUBJECTS_DIR/$SUBJECT/bem/watershed/{$SUBJECT}_outer_skull_surface
+ -f $SUBJECTS_DIR/$SUBJECT/bem/watershed/{$SUBJECT}_outer_skin_surface</code></pre>
 </li>
 <li><p>Make a symbolic link to these surfaces in the bem folder itself so MNE can find them.</p>
 
@@ -13053,7 +12779,7 @@ tksurfer $SUBJECT lh inflated
 </code></pre>
 <p><i>With Watershed:</i></p>
 
-<pre><code>    mne_setup_forward_model --subject $SUBJECT --surf --ico 4 --innershift 1
+<pre><code>    mne_setup_forward_model --subject $SUBJECT --surf --ico 4 --innershift -1
 
 </code></pre>
 <h3 id="Align-the-EEG-&amp;-MRI-Coordinate-Frames">Align the EEG &amp; MRI Coordinate Frames<a class="anchor-link" href="#Align-the-EEG-&amp;-MRI-Coordinate-Frames">&#182;</a></h3><p>This section details the co-registration of the EEG sensors to the MRI coordinate system. This alignment is necessary to map the EEG sensor voltage activity to the nearest vertices on the scalp mesh. Accuracy in co-registration is crucial for a quality forward model. As such, it is important to evaluate the results of the co-registration algorithm with care. Beware that this is a somewhat time intensive and difficult process (the difficulty and challenges tend to vary quite a bit between subjects). The output of this process is a file containing the coordinate transform matrix (from EEG to head model).</p>
@@ -13134,13 +12860,13 @@ ln -s JUST_MADE_FILE cor_{SUBJECT_ID}_{DAY_OF_SCANNING}.fif</code></pre>
 <span class="n">raw_info</span> <span class="o">=</span> <span class="n">Raw</span><span class="p">(</span><span class="s1">&#39;Path to raw data&#39;</span><span class="p">,</span> <span class="n">preload</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="o">.</span><span class="n">info</span>
 
 <span class="c1"># Load the BEM solution file</span>
-<span class="n">bem</span> <span class="o">=</span> <span class="n">read_bem_solution</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">fs_dir</span><span class="p">,</span> <span class="n">sub_name</span><span class="p">,</span> <span class="s1">&#39;bem&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">-5120-5120-5120-bem-sol.fif&#39;</span> <span class="o">%</span> <span class="n">sub_name</span><span class="p">))</span>
+<span class="n">bem</span> <span class="o">=</span> <span class="n">read_bem_solution</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">fs_recons_dir</span><span class="p">,</span> <span class="n">sub_name</span><span class="p">,</span> <span class="s1">&#39;bem&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">-5120-5120-5120-bem-sol.fif&#39;</span> <span class="o">%</span> <span class="n">sub_name</span><span class="p">))</span>
 
 <span class="c1"># Load the source space file</span>
-<span class="n">source</span> <span class="o">=</span> <span class="n">read_source_spaces</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">fs_dir</span><span class="p">,</span> <span class="n">sub_name</span><span class="p">,</span> <span class="s1">&#39;bem&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">-oct-6p-src.fif&#39;</span> <span class="o">%</span> <span class="n">sub_name</span><span class="p">))</span>
+<span class="n">source</span> <span class="o">=</span> <span class="n">read_source_spaces</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">fs_recons_dir</span><span class="p">,</span> <span class="n">sub_name</span><span class="p">,</span> <span class="s1">&#39;bem&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">-oct-6p-src.fif&#39;</span> <span class="o">%</span> <span class="n">sub_name</span><span class="p">))</span>
 
 <span class="c1"># Load the Coregistration Coordinate Transform File (replace with actual name of trans file)</span>
-<span class="n">coord_trans</span> <span class="o">=</span> <span class="n">read_trans</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">fs_dir</span><span class="p">,</span> <span class="n">sub_name</span><span class="p">,</span> <span class="s1">&#39;mri&#39;</span><span class="p">,</span> <span class="s1">&#39;T1-neuromag&#39;</span><span class="p">,</span> <span class="s1">&#39;sets&#39;</span><span class="p">,</span> <span class="s1">&#39;name of coord trans file&#39;</span><span class="p">))</span>
+<span class="n">coord_trans</span> <span class="o">=</span> <span class="n">read_trans</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">fs_recons_dir</span><span class="p">,</span> <span class="n">sub_name</span><span class="p">,</span> <span class="s1">&#39;mri&#39;</span><span class="p">,</span> <span class="s1">&#39;T1-neuromag&#39;</span><span class="p">,</span> <span class="s1">&#39;sets&#39;</span><span class="p">,</span> <span class="s1">&#39;name of coord trans file&#39;</span><span class="p">))</span>
 
 <span class="c1"># Compute &amp; Save the Forward Solution</span>
 <span class="c1"># mindist = Minimum distance (mm) a source needs to be from the inner skull layer to be included</span>
